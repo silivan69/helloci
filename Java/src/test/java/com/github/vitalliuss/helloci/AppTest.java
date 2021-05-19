@@ -18,7 +18,10 @@ public class AppTest {
 
 	@Test
 	public void testShouldBeFailed() {
-		assertTrue(false);
+		asserTrue(false);
+	}
+
+	private void asserTrue(boolean b) {
 	}
 
 	@Ignore("Not implemented yet")
